@@ -1,0 +1,30 @@
+!!!
+html.no-js
+  head
+    meta{"charset" => "utf-8"}/
+    meta{"http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1"}/
+    meta{"name" => "viewport", :content => "width=device-width"}/
+    title= title
+
+    script(type='text/javascript', src='/js/libs/modernizr-2.5.3.min.js')
+  body
+
+    div.wrapper
+        div.clouds.container
+            div.cloud-1
+            div.cloud-2
+            div.cloud-3
+            div.cloud-4
+            div.cloud-5
+            div.cloud-6
+
+        header#top.top
+            dic.container
+                h1 Oya Hero Challenge
+
+        section.scoreboard      
+            block content
+    
+
+    script(type='text/javascript', src="/js/libs/jquery-1.7.1.min.js")
+    script(type='text/javascript', src="/js/admin.js")

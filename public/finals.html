@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Oyatel Painstation Finalists</title>
+	<meta name="apple-mobile-app-capable" content="yes">
+	<link rel="stylesheet" href="http://fast.fonts.com/cssapi/7cc439cc-6bb9-46ca-9d6c-9b88f72a29ee.css">
+	<link rel="stylesheet" href="css/scoreboard.css" media="all">
+	<script src="http://fast.fonts.com/jsapi/7cc439cc-6bb9-46ca-9d6c-9b88f72a29ee.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="scores">
+			<h1>Oyatel Painstation Finalists</h1>
+			<table class="scores">
+				<thead>
+					<tr>
+						<th>Pain<br>Master</th>
+						<th>Nickname</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>&#10003;</td>
+						<td>kamiltrebunia</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>wampirek</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>fisherstwitt</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>daniula</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>ostroffsky</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>olasitarska</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>icebeat</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>b_antunes</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>webreflection</td>
+					</tr>
+					<tr>
+						<td>&#10003;</td>
+						<td>hrypa</td>
+					</tr>
+				</tbody>
+			</table>
+		</div><!-- scores -->
+		<div class="twitter-feed">
+			<h1>#oyahero</h1>
+		</div><!-- twitter-feed -->
+		<img src="img/qr.png" alt="QR Code" id="qr">
+	</div><!-- container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+	
+	<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'profile',
+	  rpp: 4,
+	  interval: 30000,
+	  width: 250,
+	  height: 300,
+	  theme: {
+	    shell: {
+	      background: '#333333',
+	      color: '#ffffff'
+	    },
+	    tweets: {
+	      background: '#000000',
+	      color: '#ffffff',
+	      links: '#4aed05'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    behavior: 'all'
+	  }
+	}).render().setUser('oyahero').start();
+	</script>
+</body>
+</html>

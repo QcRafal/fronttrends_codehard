@@ -1,0 +1,111 @@
+/* reset */
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+a { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #fff; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+svg:not(:root) { overflow: hidden; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+/* webfonts */
+
+@font-face {
+	font-family: 'RangerRegular';
+	src: url('../fonts/ranger-webfont.eot');
+	src: url('../fonts/ranger-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/ranger-webfont.woff') format('woff'),
+			 url('../fonts/ranger-webfont.ttf') format('truetype'),
+			 url('../fonts/ranger-webfont.svg#RangerRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container {
+	width: 940px;
+	margin: 20px auto 0 auto;
+}
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: monospace;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+h1 {
+
+	font-family: "Agency FB W00 Regular", sans-serif;
+	font-size: 1.85em;
+	line-height: 1;
+}
+
+.container > div {
+	float: left;
+	width: 50%;
+}
+
+.twitter-feed {
+	width: 290px;
+}
+
+#qr {
+	float: right;
+	width: 190px;
+}
+
+table {
+	width: 83%;
+}
+
+th {
+	text-align: left;
+}
+
+th:first-child,
+td:first-child {
+	text-align: center;
+	width: 100px;
+}
+
+th, td {
+	padding: 7px 10px;
+}
+
+th:first-child,
+td:first-child {
+	border-right: 1px solid #fff;
+}
+
+thead {
+	border-bottom: 1px solid #fff;
+}
+
+td.pagination {
+	border-right: 0;
+	width: auto;
+	border-top: 1px solid white;
+}
+
+.twtr-widget {
+	width: 250px;
+	float: left;
+}
